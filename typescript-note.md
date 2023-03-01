@@ -107,8 +107,8 @@ let tom: Person = {
 定義變數的屬性不能比介面少或多
 ```ts
 interface Person {
-  name: string,
-  age: number,
+  name: string;
+  age: number;
 }
 
 let tom: Person = {
@@ -130,8 +130,8 @@ let rose: Person = {
 使用方法是多加一個 `?`
 ```ts
 interface Person {
-  name: string,
-  age?: number,
+  name: string;
+  age?: number;
 }
 
 let tom: Person = {
