@@ -342,6 +342,8 @@ function getLength(something: string | number): number {
 ```
 注意，儘管可以預設型別，但仍不能斷言成聯合型別以外的型別
 
+# 宣告檔案
+
 # 型別別名 和 字串字面量型別
 型別別名用來給型別起新名字，常用於聯合型別
 ```ts
